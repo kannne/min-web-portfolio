@@ -87,7 +87,7 @@ const projects = [
     ],
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Framer Motion"],
     github: "https://github.com/kannne/min-web-portfolio",
-    link: null,
+    link: "https://min-web-portfolio.vercel.app",
   },
 ];
 
@@ -95,7 +95,7 @@ export function Projects() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
-    <section id="projects" ref={ref} className="min-h-screen py-15">
+    <section id="projects" ref={ref} className="min-h-screen py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={staggerContainer}
